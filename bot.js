@@ -1,7 +1,7 @@
 const { Telegraf, Markup } = require('telegraf');
 
 // Replace with your bot token from @BotFather or use environment variable
-const bot = new Telegraf(process.env.BOT_TOKEN || 'YOUR_BOT_TOKEN_HERE');
+const bot = new Telegraf(process.env.BOT_TOKEN || '7548477665:AAGeF7yaz_bpnod8-YfsBdl4PIY66o-1KyY');
 
 // Main Menu buttons
 const mainMenu = Markup.keyboard([
